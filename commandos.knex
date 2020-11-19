@@ -1,0 +1,8 @@
+// Cria uma nova migration
+npx knex migrate:make <nome-migration>
+
+// Executar as migrations restantes (executa o método 'up')
+npx knex migrate:latest
+
+// Reverte as migrations (executa o método 'down')
+npx knex migrate:rollback
