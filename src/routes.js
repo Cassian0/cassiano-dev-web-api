@@ -4,6 +4,10 @@ const routes = express.Router();
 const CategoryController = require('./controllers/CategoryController');
 const ProductController = require('./controllers/ProductController');
 
+routes.get('/', (request, response) => {
+    return response.json({ status: "OK" })
+});
+
 // CATEGORIAS
 routes.post('/category', CategoryController.save);
 routes.get('/category', CategoryController.list);
