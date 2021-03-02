@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js"
   },
-  "author": "Fabio Dela Bruna",
+  "author": "Cassiano Schmitz",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
